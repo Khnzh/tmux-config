@@ -1,0 +1,9 @@
+# TPM-managed plugin checkouts stay local and are installed from the declarations
+# in .tmux.conf.
+.tmux/plugins/
+
+# Optional machine-local overrides and secret-bearing files.
+.tmux.conf.local
+.tmux.local.conf
+.tmux/*.local
+.tmux/*.secret
